@@ -47,8 +47,23 @@ button{
     margin: 12px;
 }
 
+.container-fluid{
+    background-color: #6c2eb9;
+    height: 5rem;
+}
+.row{
+    background-color: rgb(5, 12, 1);
+    height: 4rem;
+}
 #circle{
     margin: 12px;
+}
+
+[class*"col-"]{
+    background-color: white;
+    height: 3.5rem;
+    border: 2px solid rgb(0,0, 0, 0.3);
+
 }
 
 ul > li{
