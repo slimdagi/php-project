@@ -1,0 +1,61 @@
+/* body {
+    background-color: white;
+    background-image: url(ethio.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: border-box;
+    background-size: contain;
+} */
+h1 {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    color: rgb(255, 217, 0);
+}
+
+/* h3 {
+    color: red;
+} */
+
+img:hover, h3:hover{
+    background-color: yellow;
+}
+
+button{
+    background-color: red;
+}
+
+#takemetogoogle_button{
+    background-color: yellowgreen;
+}
+
+#city{
+    
+    transform: rotate(270deg);
+}
+#sinju{
+    
+    transform: rotate(90deg);
+}
+#fount{
+    
+    transform: rotate(270deg);
+}
+.rectangle{
+    color: brown;
+    margin: 12px;
+}
+
+#circle{
+    margin: 12px;
+}
+
+ul > li{
+    color: purple;
+    font-size: 20px;
+}
+
+p{
+    background: linear-gradient(to left, #00ccff, #b3f0ff);
+}
