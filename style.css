@@ -1,11 +1,3 @@
-/* body {
-    background-color: white;
-    background-image: url(ethio.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-origin: border-box;
-    background-size: contain;
-} */
 h1 {
     color: green;
     font-family: Arial, Helvetica, sans-serif;
@@ -47,23 +39,35 @@ button{
     margin: 12px;
 }
 
-.container-fluid{
-    background-color: #6c2eb9;
-    height: 5rem;
+body.sign-body{
+    background-color: #0b233d;
 }
-.row{
-    background-color: rgb(5, 12, 1);
-    height: 4rem;
+
+.container.sign-container{
+    margin-top: 10%;
 }
+
+.card.sign-card{
+    padding: 40px 0px 20px;
+    background-color: #ddcaca;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+}
+
+.img.sign-img{
+    padding: 0 2rem 2rem;
+    margin: auto;
+    display: block;
+    width: 10%;
+}
+
+form.sign-Form{
+    
+    max-width: 350px;
+    margin: auto;
+}
+
 #circle{
     margin: 12px;
-}
-
-[class*"col-"]{
-    background-color: white;
-    height: 3.5rem;
-    border: 2px solid rgb(0,0, 0, 0.3);
-
 }
 
 ul > li{
