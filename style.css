@@ -6,16 +6,8 @@ h2 {
     color: rgb(255, 217, 0);
 }
 
-/* h3 {
-    color: red;
-} */
-
 img:hover, h3:hover{
     background-color: yellow;
-}
-
-button{
-    background-color: red;
 }
 
 #takemetogoogle_button{
@@ -48,9 +40,8 @@ body.sign-body{
 }
 
 .card.sign-card{
-    padding: 40px 0px 20px;
+    padding: 0px 0px 0px;
     background-color: #ddcaca;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
 }
 
 .img.sign-img{
@@ -61,20 +52,14 @@ body.sign-body{
 }
 
 form.sign-Form{
-    
-    max-width: 350px;
-    margin: auto;
+    margin-top: 10px;
+    margin-left: 20px;
 }
 
-#circle{
-    margin: 12px;
+.btn-primary{
+    margin-left: 100px;
+    margin-top: 20px;
 }
-
-ul > li{
-    color: purple;
-    font-size: 20px;
-}
-
-p{
-    background: linear-gradient(to left, #00ccff, #b3f0ff);
+.form-check-label {
+    margin-bottom: 5px;
 }
