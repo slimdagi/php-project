@@ -63,3 +63,8 @@ form.sign-Form{
 .form-check-label {
     margin-bottom: 5px;
 }
+
+.jumbotron{
+    text-align: center;
+    background: none;
+}
