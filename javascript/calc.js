@@ -1,4 +1,4 @@
-/* var num1 = document.getElementById('num1');
+var num1 = document.getElementById('num1');
 var num2 = document.getElementById('num2');
 var result = document.getElementById('result');
 var whatPercentForm = document.getElementById('whatPercentForm');
@@ -23,17 +23,4 @@ whatPercentForm.addEventListener('submit', function(event){
         event.preventDefault();
     }
     
-}); */
- 
-const Http = new XMLHttpRequest();
-const url='https://jsonplaceholder.typicode.com/posts';
-Http.open("GET", url);
-Http.send();
-
-Http.onreadystatechange = function(){
-    if(this.readyState==4 && this.status==200){
-        var response = JSON.parse(this.responseText);
-        alert(response[0].title);
-        console.log(response.cookies);
-    }
-}
+});
