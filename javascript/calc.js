@@ -24,3 +24,4 @@ whatPercentForm.addEventListener('submit', function(event){
     }
     
 });
+document.getElementById("stillLoverHer").style.color = "blue";
