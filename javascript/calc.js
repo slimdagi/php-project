@@ -24,4 +24,8 @@ whatPercentForm.addEventListener('submit', function(event){
     }
     
 });
-document.getElementById("stillLoverHer").style.color = "blue";
+document.getElementById("YNWA").style.color = "blue";
+
+function checker(){
+    alert("Shut the fuck up");
+}
