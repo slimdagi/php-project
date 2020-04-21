@@ -29,11 +29,12 @@
         if (mysqli_num_rows($result) == 1){
             echo "You are logged in";
             //include 'C://Users/slimd/Desktop/first_website/main-page.html';
-            header("Location: main-page.html");
+            include("main-page.html");
+            //header("Location: main-page.html");
             
             
         } else{
-            echo "Sorry password or email is not correct";
+            echo "Sorry, your password or email is not correct or maybe your dumbass don't have an account with us!";
         }
 
     $conn->close();
